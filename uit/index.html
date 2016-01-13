@@ -1,12 +1,28 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<title>UIT</title>
-	<script type="text/javascript" data-cfasync='false' src="https://aframe.io/aframe/dist/aframe.js"></script>
+    <title>UIT Spheres</title>
+    <script type="text/javascript" data-cfasync='false' src="https://aframe.io/aframe/dist/aframe.js"></script>
+
+    <meta charset="UTF-8">
+    <meta name="author" content="Van-Duyet Le <me@duyetdev.com>" />
+    <meta name="description" content="Spheres - UIT" /> 
+    <meta name="keywords" content="web,design,html,css,html5,development,duyetdev,sphere,photo">
+
+	<meta property="og:title" content="UIT Spheres">
+	<meta property="og:image" content="https://spheres.duyetdev.com/assets/img/uit.png" />
+	<meta property="og:description" content="Spheres - UIT" />
 </head>
+
 <body>
-	<a-scene>
-		<a-sky src="../assets/data/uit-e-building.jpg" rotation="0 -130 0"></a-sky>
-	</a-scene>
+    <a-scene>
+    	Not support.
+        <a-sky src="../assets/data/uit-e-building.jpg" rotation="0 -130 0">
+            <a-animation attribute="rotation" to="0 360 0" dur="20000" repeat="indefinite">
+            </a-animation>
+        </a-sky>
+    </a-scene>
 </body>
+
 </html>
